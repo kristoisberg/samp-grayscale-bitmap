@@ -1,0 +1,18 @@
+{
+	"user": "kristoisberg",
+	"repo": "grayscale-bitmap",
+	"entry": "test.pwn",
+	"output": "test.amx",
+	"dependencies": [
+		"sampctl/samp-stdlib",
+		"kristoisberg/colour-manipulation",
+		"pawn-lang/YSI-Includes",
+		"Southclaws/samp-bitmapper"
+	],
+	"runtime": {
+		"version": "0.3.7",
+		"mode": "server",
+		"rcon_password": "password",
+		"port": 7777
+	}
+}
