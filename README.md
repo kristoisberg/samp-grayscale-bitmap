@@ -2,29 +2,8 @@
 
 [![sampctl](https://shields.southcla.ws/badge/sampctl-grayscale--bitmap-2f2f2f.svg?style=for-the-badge)](https://github.com/kristoisberg/grayscale-bitmap)
 
-<!--
-Short description of your library, why it's useful, some examples, pictures or
-videos. Link to your forum release thread too.
+This include was originally intended to be a test script for [colour-manipulation](https://github.com/kristoisberg/colour-manipulation), but I decided to turn this into an actual include. The include, in theory, is ready to be used, but due to an issue with [samp-bitmapper](https://github.com/Southclaws/samp-bitmapper) it doesn't actually work yet.
 
-Remember: You can use "forumfmt" to convert this readme to forum BBCode!
-
-What the sections below should be used for:
-
-`## Installation`: Leave this section un-edited unless you have some specific
-additional installation procedure.
-
-`## Testing`: Whether your library is tested with a simple `main()` and `print`,
-unit-tested, or demonstrated via prompting the player to connect, you should
-include some basic information for users to try out your code in some way.
-
-And finally, maintaining your version number`:
-
-* Follow [Semantic Versioning](https://semver.org/)
-* When you release a new version, update `VERSION` and `git tag` it
-* Versioning is important for sampctl to use the version control features
-
-Happy Pawning!
--->
 
 ## Installation
 
@@ -42,19 +21,12 @@ Include in your code and begin using the library:
 
 ## Usage
 
-<!--
-Write your code documentation or examples here. If your library is documented in
-the source code, direct users there. If not, list your API and describe it well
-in this section. If your library is passive and has no API, simply omit this
-section.
--->
+```pawn
+bool:GrayscaleBitmap(const load_path[], const save_path[], width, height) // GreyscaleBitmap also works
+```
+
 
 ## Testing
-
-<!--
-Depending on whether your package is tested via in-game "demo tests" or
-y_testing unit-tests, you should indicate to readers what to expect below here.
--->
 
 To test, simply run the package:
 
