@@ -1,11 +1,11 @@
 {
 	"user": "kristoisberg",
-	"repo": "grayscale-bitmap",
+	"repo": "samp-grayscale-bitmap",
 	"entry": "test.pwn",
 	"output": "test.amx",
 	"dependencies": [
 		"sampctl/samp-stdlib",
-		"kristoisberg/colour-manipulation",
+		"kristoisberg/pawn-colour-manipulation",
 		"pawn-lang/YSI-Includes",
 		"Southclaws/samp-bitmapper"
 	],
